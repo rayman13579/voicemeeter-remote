@@ -2,9 +2,12 @@
   "name": "voicemeeter-remote",
   "version": "0.6.0",
   "description": "A Node.js voicemeeter remote wrapper",
-  "main": "index.mjs",
+  "main": "index.js",
   "types": "index.d.ts",
   "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Mickael MAYEUR",
   "contributors": [
     "Mickael MAYEUR",
@@ -14,6 +17,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "express": "^5.1.0",
     "koffi": "^2.7.0",
     "winreg": "^1.2.5"
   },
